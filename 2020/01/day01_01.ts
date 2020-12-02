@@ -17,3 +17,5 @@ for (const number of numbers) {
     break;
   }
 }
+
+export {};
