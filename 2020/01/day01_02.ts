@@ -35,7 +35,7 @@ const find = () => {
     }
   }
 
-  return [0, 0, 0];
+  throw new Error(`Could not find 3 numbers which sum to ${target}`);
 };
 
 const [first, second, third] = find();
