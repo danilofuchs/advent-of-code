@@ -27,3 +27,5 @@ const validCount = validPassports.reduce(
 );
 
 console.log(validCount);
+
+export {};
